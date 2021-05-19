@@ -1,0 +1,40 @@
+{
+  "packages": [
+    {
+      "name": "Eswino",
+      "maintainer": "Eswino Corp",
+      "websiteURL": "https://gitlab.com/eswino/giraopa/-/blob/master/boards",
+      "email": "fmawic@gmail.com",
+      "help": {
+        "online": "https://gitlab.com/eswino/giraopa/-/blob/master/boards/issue"
+      },
+      "platforms": [
+        {
+          "name": "Eswino Giraopa Boards",
+          "architecture": "stm32l0",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://gitlab.com/eswino/giraopa/-/blob/master/boards/ArduinoCore-stm32l0-0.0.1.zip",
+          "archiveFileName": "ArduinoCore-stm32l0-0.0.1.zip",
+          "checksum": "MD5:931835E8B0A5D35C8D6066BD95B111A1",
+          "size": "9875509",
+          "boards": [
+            {"name": "Giraopa-TiltTracker"},
+			{"name": "Grasshopper-L082CZ"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            }
+          ]
+        }
+
+
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}

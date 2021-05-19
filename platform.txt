@@ -18,7 +18,11 @@
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
 
 name=Eswino Giraopa (STM32L0) Boards
+<<<<<<< HEAD
 version=1.6.18
+=======
+version=1.8.13
+>>>>>>> a539524 ([FIX] name appearence in ARduino IDE menu)
 
 # Compile variables
 # -----------------
