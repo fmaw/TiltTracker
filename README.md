@@ -24,7 +24,7 @@ ArduinoCore-stm32l0 targets low power scenarios and sensors with LoRaWAN connect
  1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (at least version v1.6.8)
  2. Start the Arduino IDE
  3. Go into Preferences
- 4. Add ```https://gitlab.com/eswino/giraopa/boards/giraopaBoards.json``` as an "Additional Board Manager URL"
+ 4. Add ```https://gitlab.com/eswino/giraopa/-/blob/master/boards/giraopaBoards.json``` as an "Additional Board Manager URL"
  5. Open the Boards Manager from the Tools -> Board menu and install "Eswino STM32L0 Boards"
  6. Select your STM32L0 board from the Tools -> Board menu
 
@@ -32,7 +32,7 @@ ArduinoCore-stm32l0 targets low power scenarios and sensors with LoRaWAN connect
 
 ##### Linux
 
- 1. Go to ~/.arduino15/packages/Eswino/hardware/stm32l0/```<VERSION>```/drivers/linux/
+ 1. Go to ~/.arduino15/packages/Eswino/hardware/TiltTracker/```<VERSION>```/drivers/linux/
  2. sudo cp *.rules /etc/udev/rules.d
  3. reboot
 
