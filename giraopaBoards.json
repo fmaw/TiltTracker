@@ -1,0 +1,40 @@
+{
+  "packages": [
+    {
+      "name": "Eswino",
+      "maintainer": "Eswino Corp",
+      "websiteURL": "https://github.com/fmaw/TiltTracker",
+      "email": "fmawic@gmail.com",
+      "help": {
+        "online": "https://github.com/fmaw/TiltTracker"
+      },
+      "platforms": [
+        {
+          "name": "Eswino Giraopa Boards",
+          "architecture": "stm32l0",
+          "version": "0.0.10",
+          "category": "Contributed",
+          "url": "https://github.com/fmaw/TiltTracker",
+          "archiveFileName": "TiltTracker.zip",
+          "checksum": "MD5:931835E8B0A5D35C8D6066BD95B111A1",
+          "size": "9875509",
+          "boards": [
+            "name": "Giraopa-TiltTracker",
+			"name": "Grasshopper-L082CZ"
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            }
+          ]
+        }
+
+
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
